@@ -2,7 +2,7 @@ import urllib.request
 import time
 
 # URL para teste de conexão com a internet
-url = 'https://www.google.com'
+url = 'https://www.google.com.br'
 
 # Loop infinito para monitorar a conexão com a internet
 while True:
