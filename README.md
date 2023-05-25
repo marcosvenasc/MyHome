@@ -2,4 +2,6 @@
 
 Status do projeto: Em desenvolvimento
 
+  -> Script em python para monitoração da internet está rodando!
+
 
