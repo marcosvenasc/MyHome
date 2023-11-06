@@ -1,0 +1,32 @@
+Instalação do serviço de VPN em Linux -  TAILSCALE
+
+Site: https://tailscale.com/download/linux 
+      https://tailscale.com/kb/reference/
+---------------------------------------------------------
+
+1º - Iniciar o terminal do linux.
+
+2º - Habilitar modo root
+
+homelab@localhost:~$ su
+Password:(SUA SENHA)
+
+3º Instalação do serviço:
+
+  sudo curl -fsSL https://tailscale.com/install.sh | sh
+
+4º - Subindo serviço:
+
+   sudo tailscale up
+
+obs: Irá aparece uma mensagem informando que o serviço está rodando.
+
+5º - Habilitando a sua conta.
+
+O Tailsacale utiliza serviço de autenticação SSO, assim é utilizado uma outra conta para se logar nele.
+
+   sudo tailscale login
+
+6º -Vizualização do ip para acesso
+
+   sudo tailscale ip -4
